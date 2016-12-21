@@ -1,0 +1,43 @@
+.team__container
+  font-size: 0
+
+.team__item
+  display: inline-block
+  width: 25%
+  max-width: 280px
+  padding: 0 25px
+  @media screen and (max-width: 860px)
+    width: 50%
+    margin-bottom: 60px
+  @media screen and (max-width: 560px)
+    width: 100%
+
+.team__name
+  margin-top: 25px
+  font-size: 22px
+
+.team__occupation
+  margin-top: 10px
+  color: $textLight
+  font-size: 16px
+
+.team__desc
+  margin-top: 10px
+  color: #313841
+  font-size: 14px
+
+.team__socials-container
+  margin-top: 10px
+  a
+    display: inline-block
+    margin-right: 10px
+    vertical-align: middle
+
+.team__socials-facebook
+  @include sprite($team-facebook-icon)
+
+.team__socials-twitter
+  @include sprite($team-twitter-icon)
+
+.team__socials-linkedin
+    @include sprite($team-linkedin-icon)

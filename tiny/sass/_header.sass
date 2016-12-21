@@ -1,0 +1,110 @@
+.header__wrapper
+  width: 100%
+  background: $headerBcg
+  color: $textDark2
+
+.header__wrapper-inner
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  max-width: 960px
+  min-height: 100vh
+  margin: 0 auto
+  padding: 60px
+  @media screen and (max-width: 560px)
+    padding: 30px 0
+
+.header__top-container
+  display: flex
+  justify-content: space-between
+  @media screen and (max-width: 560px)
+    width: 80%
+    margin: 0 auto 150px
+
+.header__nav-menu
+  display: block
+  margin-top: 10px
+  @include sprite($menu_icon)
+
+.header__logo--container
+  display: inline-block
+  padding-left: 75px
+  @media screen and (max-width: 560px)
+    padding-left: 0
+
+.header__logo--image,
+.header__logo--title,
+.header__social--link
+  display: inline-block
+  vertical-align: middle
+
+.header__logo--image
+  margin-right: 5px
+  @include sprite($fingerprint)
+
+.header__logo--title
+  font-family: $fontBold
+  font-size: 30px
+  @media screen and (max-width: 768px)
+    font-size: 22px
+
+.header__social--container
+  @media screen and (max-width: 560px)
+    display: none
+
+.header__social--link
+  margin-left: 10px
+
+.header__center-container
+  width: 500px
+  margin: 0 auto
+  @media screen and (max-width: 768px)
+    width: 90%
+
+.header__title
+  margin-bottom: 15px
+  font-family: $fontBold
+  font-size: 48px
+  @media screen and (max-width: 768px)
+    font-size: 40px
+  @media screen and (max-width: 560px)
+    font-size: 32px
+
+.header__subtitle
+  font-size: 20px
+  @media screen and (max-width: 768px)
+    font-size: 18px
+
+.header__start-button
+  display: block
+  width: 250px
+  height: 55px
+  margin: 40px auto 0
+  background: inherit
+  font-family: $fontBold
+  font-size: 22px
+  border: 2px solid #000
+  cursor: pointer
+  outline: none
+  @media screen and (max-width: 768px)
+    font-size: 16px
+  @media screen and (max-width: 560px)
+    margin-top: 70px
+    font-size: 14px
+
+.header__start-arrow
+  display: inline-block
+  margin: 0 auto
+  @include sprite($arrow-down)
+  cursor: pointer
+
+
+
+.facebook-icon
+  @include sprite($facebook-icon)
+.twitter-icon
+  @include sprite($twitter-icon)
+.google-icon
+  @include sprite($google-icon)
+.pinterest-icon
+  @include sprite($pinterest-icon)

@@ -1,0 +1,74 @@
+.footer__wrapper
+  background: #000
+  color: #fff
+
+.footer__container
+  max-width: 960px
+  min-height: 100vh
+  margin: 0 auto
+  padding: 90px 10px 0
+
+.footer__title
+  margin-bottom: 10px
+  font-family: $fontBold
+  font-size: 32px
+
+.footer__subtitle
+  color: #898989
+  font-size: 20px
+
+.footer__form
+  width: 760px
+  margin: 40px auto 0
+  @media screen and (max-width: 768px)
+    width: 100%
+  input[type=email]
+    width: 600px
+    margin-right: 10px
+    @media screen and (max-width: 768px)
+      width: 90%
+      margin-right: 0
+  input
+    display: inline-block
+    padding: 15px
+    font-family: $fontReg
+    font-size: 16px
+    border: none
+    background: #fff
+    outline: none
+
+  input[type=submit]
+    width: 130px
+    font-family: $fontBold
+    cursor: pointer
+    @media screen and (max-width: 868px)
+      display: block
+      margin: 30px auto
+
+.footer__refs--container
+  margin-top: 100px
+  font-size: 0
+  text-align: left
+  a
+    display: block
+    padding: 3px 0
+    color: inherit
+    text-decoration: none
+
+.footer__refs--column
+  display: inline-block
+  width: 20%
+  padding-left: 70px
+  font-size: 16px
+  vertical-align: top
+  &:first-child
+    padding: 0
+  @media screen and (max-width: 860px)
+    width: 33%
+  @media screen and (max-width: 680px)
+    width: 50%
+    margin-bottom: 25px
+  @media screen and (max-width: 560px)
+    width: 100%
+    padding: 0
+    text-align: center

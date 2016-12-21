@@ -1,0 +1,44 @@
+.features__container
+  font-size: 0
+
+.features__item
+  position: relative
+  display: inline-block
+  width: 33.3%
+  max-width: 375px
+  margin-bottom: 75px
+  padding-left: 65px
+  padding-right: 20px
+  text-align: left
+  @media screen and (max-width: 900px)
+    width: 50%
+  @media screen and (max-width: 560px)
+    width: 100%
+    margin: 0 auto
+    margin-bottom: 50px
+
+.features__item--title
+  margin-bottom: 10px
+  font-family: $fontBold
+  font-size: 22px
+
+.features__item--desc
+  color: $textLight
+  font-size: 16px
+
+.features__icon
+  position: absolute
+  top: 3px
+  left: 0
+  &.icon-font1
+    @include sprite($icon-font1)
+  &.icon-font2
+    @include sprite($icon-font2)
+  &.icon-font3
+    @include sprite($icon-font3)
+  &.icon-font4
+    @include sprite($icon-font4)
+  &.icon-font5
+    @include sprite($icon-font5)
+  &.icon-font6
+    @include sprite($icon-font6)
