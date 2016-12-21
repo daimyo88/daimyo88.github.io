@@ -10,4 +10,9 @@ $(function(){
     $(".header__nav-menu").toggleClass("nav-menu-on");
   });
 
+  $("li").on("click", function() {
+    $("#menu-ref").toggleClass("menu-ref-on");
+    $(".header__nav-menu").toggleClass("nav-menu-on");
+  });
+
 });

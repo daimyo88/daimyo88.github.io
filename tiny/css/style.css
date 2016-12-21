@@ -87,7 +87,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 960px;
-  min-height: 100vh;
+  height: 100vh;
   margin: 0 auto;
   padding: 60px;
 }
@@ -223,6 +223,7 @@ body {
 }
 
 .header__title {
+  margin-top: 60px;
   margin-bottom: 15px;
   font-family: "source sans pro bold";
   font-size: 48px;
@@ -271,7 +272,7 @@ body {
 
 @media screen and (max-width: 560px) {
   .header__start-button {
-    margin-top: 240px;
+    margin-top: 100px;
     margin-bottom: 40px;
     font-size: 14px;
   }
