@@ -6,13 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/screen.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/libs/jquery-3.0.0.min.js"></script>
+  <script src="js/app.js"></script>
   <title>Tiny-one</title>
 </head>
 <body>
   <div class="header__wrapper">
     <div class="header__wrapper-inner">
       <div class="header__top-container">
-        <a href="javascript:void(0)" class="header__nav-menu"></a>
+        <div class="header__nav-menu-ref">
+          <a href="javascript:void(0)"></a>
+          <ul class="header__nav-menu">
+            <li data-ref="features">Tinyone features</li>
+            <li data-ref="trial">Get trial</li>
+            <li data-ref="works">Our works</li>
+            <li data-ref="team">Our team</li>
+            <li data-ref="stats">Stats & Testimonial</li>
+            <li data-ref="contacts">Contacts</li>
+            <li data-ref="refs">Refferenses</li>
+          </ul>
+        </div>
         <div class="header__logo--container">
           <div class="header__logo--image"></div>
           <h1 class="header__logo--title">tinyone</h1>
@@ -31,11 +44,11 @@
         Donec rutrum sed sem quis venenatis.</span>
         <button class="header__start-button">GET START</button>
       </div>
-      <div class="header__start-arrow"></div>
+      <li data-ref="features" class="header__start-arrow"></li>
     </div>
   </div>
 
-  <div class="section-wrapper">
+  <div data-dest="features" class="section-wrapper">
     <div>
       <h1 class="section-title">Tinyone features</h1>
       <h3 class="section-subtitle">Lorem ipsum dolor sit amet, consectetur
@@ -82,7 +95,7 @@
     </div>
   </div>
 
-  <div class="section-wrapper">
+  <div data-dest="trial" class="section-wrapper">
     <div>
       <h1 class="section-title">Pricing And Free Trial</h1>
       <h3 class="section-subtitle">Lorem ipsum dolor sit amet, consectetur
@@ -129,7 +142,7 @@
     </div>
   </div>
 
-  <div class="section-wrapper">
+  <div data-dest="works" class="section-wrapper">
     <div>
       <h1 class="section-title">Our works</h1>
       <h3 class="section-subtitle">Lorem ipsum dolor sit amet, consectetur
@@ -300,7 +313,7 @@
     </div>
   </div>
 
-  <div class="section-wrapper">
+  <div data-dest="team" class="section-wrapper">
     <div>
       <h1 class="section-title">Our team</h1>
       <h3 class="section-subtitle">Lorem ipsum dolor sit amet, consectetur
@@ -355,7 +368,7 @@
     </div>
   </div>
 
-  <div class="section-wrapper">
+  <div data-dest="stats" class="section-wrapper">
     <div>
       <h1 class="section-title">Stats & Testimonial</h1>
       <h3 class="section-subtitle">Lorem ipsum dolor sit amet, consectetur
@@ -397,7 +410,7 @@
     </div>
   </div>
 
-  <div class="section-wrapper">
+  <div data-dest="contacts" class="section-wrapper">
     <div>
       <h1 class="section-title">Keep in touch with us</h1>
       <h3 class="section-subtitle">Lorem ipsum dolor sit amet, consectetur
@@ -430,7 +443,7 @@
     </form>
   </div>
 
-  <div class="footer__wrapper">
+  <div data-dest="refs" class="footer__wrapper">
     <div class="footer__container">
       <h1 class="footer__title">Sign up for our newsletter</h1>
       <h3 class="footer__subtitle">Lorem ipsum dolor sit amet, consectetur

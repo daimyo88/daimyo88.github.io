@@ -21,10 +21,36 @@
     width: 80%
     margin: 0 auto 150px
 
+.header__nav-menu-ref
+  position: relative
+  a
+    display: block
+    margin-top: 10px
+    transition: .4s
+    @include sprite($menu_icon)
+  &:hover
+    a
+      opacity: 0
+    .header__nav-menu
+      left: 30px
+      opacity: 1
+
 .header__nav-menu
-  display: block
-  margin-top: 10px
-  @include sprite($menu_icon)
+  position: absolute
+  top: 0
+  left: -100px
+  width: 160px
+  text-align: left
+  opacity: 0
+  transition: 0.4s
+  li
+    padding: 2px
+    font-family: $fontBold
+    font-size: 18px
+    cursor: pointer
+    &:hover
+      color: $textLight
+
 
 .header__logo--container
   display: inline-block
@@ -89,7 +115,9 @@
   @media screen and (max-width: 768px)
     font-size: 16px
   @media screen and (max-width: 560px)
-    margin-top: 70px
+    margin-top: 240px
+    margin-bottom: 40px
+
     font-size: 14px
 
 .header__start-arrow
@@ -97,7 +125,8 @@
   margin: 0 auto
   @include sprite($arrow-down)
   cursor: pointer
-
+  @media screen and (max-width: 560px)
+    display: none
 
 
 .facebook-icon
