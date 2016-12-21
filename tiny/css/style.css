@@ -131,22 +131,19 @@ body {
   height: 16px;
 }
 
-.header__nav-menu-ref:hover a {
-  opacity: 0;
-}
-
-.header__nav-menu-ref:hover .header__nav-menu {
-  left: 30px;
-  opacity: 1;
+.menu-ref-on {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .header__nav-menu {
   position: absolute;
   top: 0;
-  left: -100px;
-  width: 160px;
-  text-align: left;
+  left: -160px;
+  width: 150px;
   opacity: 0;
+  text-align: left;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -160,6 +157,11 @@ body {
 
 .header__nav-menu li:hover {
   color: #898989;
+}
+
+.nav-menu-on {
+  left: 30px;
+  opacity: 1;
 }
 
 .header__logo--container {

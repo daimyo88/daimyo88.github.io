@@ -28,20 +28,18 @@
     margin-top: 10px
     transition: .4s
     @include sprite($menu_icon)
-  &:hover
-    a
-      opacity: 0
-    .header__nav-menu
-      left: 30px
-      opacity: 1
+
+
+.menu-ref-on
+  transform: rotate(90deg)
 
 .header__nav-menu
   position: absolute
   top: 0
-  left: -100px
-  width: 160px
-  text-align: left
+  left: -160px
+  width: 150px
   opacity: 0
+  text-align: left
   transition: 0.4s
   li
     padding: 2px
@@ -51,6 +49,9 @@
     &:hover
       color: $textLight
 
+.nav-menu-on
+  left: 30px
+  opacity: 1
 
 .header__logo--container
   display: inline-block
