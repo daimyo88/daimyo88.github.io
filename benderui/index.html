@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bender test</title>
+  <script src="js/angular.js"></script>
+  <script src="js/angular-route.js"></script>
+  <script src="js/app.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body ng-controller="MainCtrl">
+  <div class="option-wrapper">
+    <div class="options-container">
+      <ul>
+        <li>Settings</li>
+        <li><a href="">Material profiles</a></li>
+        <li><a href="">Jog speed</a></li>
+        <li><a href="">Material diameter</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="top-menu">
+    <ul>
+        <li>
+            <a href="/">File</a>
+        </li>
+        <li>
+            <a href="/">Mode</a>
+        </li>
+        <li>
+            <a href="/">Points</a>
+        </li>
+        <li>
+            <a href="/">Config</a>
+        </li>
+    </ul>
+  </div>
+
+
+  <div ng-view></div>
+
+</body>
+</html>

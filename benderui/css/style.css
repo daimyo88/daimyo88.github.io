@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+.top-menu {
+  max-width: 800px;
+  height: 40px;
+  margin: 0 auto;
+  padding-top: 10px;
+  line-height: 40px;
+}
+
+.top-menu li:first-child a {
+  background: #0C8CDF;
+}
+
+.top-menu a {
+  display: inline-block;
+  width: 75px;
+  height: 40px;
+  color: #131313;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.option-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  float: right;
+  width: 160px;
+  min-height: 100vh;
+  border-left: 1px solid #131313;
+}
+
+.options-container li {
+  padding-left: 20px;
+  width: 100%;
+}
+
+.options-container li:first-child {
+  background: #0C8CDF;
+}
+
+.options-container li a {
+  color: #131313;
+}
+
+.default-container {
+  max-width: 580px;
+  margin-left: 150px;
+  margin-right: 160px;
+}
+
+.manual-controller-container {
+  position: relative;
+  max-width: 340px;
+  margin: 0 auto;
+  padding-top: 100px;
+  border: 1px dotted #131313;
+  text-align: center;
+  font-family: sans-serif;
+  color: #131313;
+}
+
+.vertical-element {
+  display: inline-block;
+}
+
+.vertical-element.bottom-element {
+  margin-top: 80px;
+}
+
+.vertical-element.bottom-element .element-text {
+  margin-top: 5px;
+}
+
+.vertical-element-btns {
+  display: inline-block;
+  width: 45px;
+  height: 80px;
+  padding-top: 11px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 15px;
+          border-radius: 15px;
+}
+
+.vertical-element-btns .fa {
+  display: block;
+  margin-top: -12px;
+  color: #131313;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.horizontal-element {
+  height: 45px;
+  line-height: 45px;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.left-element {
+  float: left;
+}
+
+.right-element {
+  float: right;
+}
+
+.element-text {
+  margin-bottom: 5px;
+}
+
+.element-text-horizontal {
+  display: inline-block;
+  margin-right: 5px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+
+.horizontal-element-btns {
+  display: inline-block;
+  height: 40px;
+  width: 80px;
+  padding-right: 8px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 15px;
+          border-radius: 15px;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.horizontal-element-btns .fa {
+  display: inline-block;
+  margin-right: -5px;
+  color: #131313;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.default-button {
+  display: inline-block;
+  height: 40px;
+  width: 90px;
+  color: #131313;
+  border: 1px solid #0C8CDF;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.left-btn {
+  float: left;
+}
+
+.right-btn {
+  float: right;
+}
+
+.top-btn-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.bot-btn-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.duck-btn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.tip-inline {
+  display: inline-block;
+  padding: 5px 10px 5px;
+  max-width: 475px;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.tip-fullwidth {
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
