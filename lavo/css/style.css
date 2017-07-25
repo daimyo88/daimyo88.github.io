@@ -8,6 +8,16 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Metric-Semibold';
+    src: url('../fonts/Metric-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Metric-Semibold.otf')  format('opentype'),
+         url('../fonts/Metric-Semibold.woff') format('woff'),
+         url('../fonts/Metric-Semibold.ttf')  format('truetype'),
+         url('../fonts/Metric-Semibold.svg#Metric-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     box-sizing: border-box;
@@ -44,11 +54,12 @@ body {
 .title {
     margin-top: 20px;
     font-size: 20px;
+    font-family: 'Metric-Semibold';
     line-height: 24px;
 }
 
 .text {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 65px;
     font-size: 16px;
     line-height: 24px;
