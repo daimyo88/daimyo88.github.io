@@ -1,0 +1,224 @@
+.body{
+	
+}
+
+@font-face {
+    font-family: Ubuntu-Medium; 
+    src: url(fonts/Ubuntu-Medium.ttf); 
+   }
+
+@font-face {
+    font-family: Ubuntu-Light; 
+    src: url(fonts/Ubuntu-Light.ttf); 
+   }
+
+@font-face {
+    font-family: UbuntuCondensedRegular; 
+    src: url(fonts/UbuntuCondensedRegular.ttf); 
+   }
+.header{
+	margin: auto;
+	width: 1160px;
+	height: 56px;
+}
+
+.header_logo{
+	width: 1160px;
+	height: 56px;
+}
+
+.logo_block{
+	width: 250px;
+	float: left;
+}
+
+.logo{
+	
+}
+
+.logo-img{
+	float:left;
+	margin-right: 11px;
+}
+
+.build{
+	font-family: Ubuntu-Medium; 
+	font-size: 20px;
+}
+
+.industrial{
+	font-family: Ubuntu-Light;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.social{
+	width:140px;
+	float:right;
+	margin-right: 3px;
+	margin-top: 12px;
+}
+
+.social a{
+	margin-left: 10px;
+}
+
+a.rollover {
+	background: url(img/f.png); 
+    display: block;
+}
+
+a.rollover:hover {
+	background: url(img/f_on_click.png); 
+    display: block;
+}
+
+.header_menu{
+	width: 1160px;
+	height: 56px;
+	border: 1px solid black;
+	background-color: #2a2d32;
+}
+
+.menu{
+	margin-top: 20px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white; 
+    background: #2a2d32; 
+    font-family: Ubuntu-Light;
+	text-transform: uppercase;
+	border: 1px solid #181a1d;
+    padding: 20px; 
+	margin:0px;
+	font-family: UbuntuCondensedRegular;
+}
+
+.menu a:hover{
+	text-decoration: none;
+	color: white; 
+    background: #248cec; 
+    font-family: Ubuntu-Light;
+	text-transform: uppercase;
+	border: 1px solid #181a1d;
+    padding: 20px; 
+	margin:0px;
+	font-family: UbuntuCondensedRegular;
+}
+
+/*Слайдер*/
+ .sliderA {
+    width: 1161px;
+    height: 470px;
+    border: 1px solid #888;
+    position: relative;
+    text-align: center;
+	margin: auto;
+	margin-top: 56px;
+    }
+.sliderA > input {
+    display: none;
+    }
+.sliderA > input + label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    background: rgba(90, 90, 90, 0.8);
+    border: 2px solid rgba(190, 190, 190, 0.8);
+	cursor: pointer;
+    z-index: 100;
+    position: relative;
+    margin-right: 4px;
+    top: 90%;
+    transition: background 0.8s ease-out 0s;
+    }
+
+.sliderA > input + label:hover {
+    background: rgba(250, 250, 250, 0.8);
+    }
+
+.sliderA > input:checked + label {
+    background: rgba(220, 220, 220, 0.8);
+    }
+	
+.sliderA > div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+    }
+.sliderA > div {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+.sliderA > input:checked + label + div {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+/*Блок1*/
+.block1{
+	margin-top: 77px;
+	width: 1160px;
+	height: 200px;
+	margin: auto;
+	}
+.for_block1{
+	width: 384px;
+	height: 178px;
+	float: left;
+	}
+	
+.power{
+		
+	}
+	
+.new{
+		
+	}
+	
+.fast{
+		
+	}
+	
+.number{
+	font-family: Ubuntu-Medium;
+	color: #e9e9ea;
+	font-size: 90px;
+	width: 90px;
+	float: left;
+	}
+	
+.content_block1{
+	margin-left: 120px;
+	margin-top: 20px;
+	}
+.content_block1_title{
+	font-family: Ubuntu-Medium;
+	font-size: 20px;
+	margin-top: 17px;
+}
+
+.content_block1_text{
+	font-family: Arial;
+	font-size: 13px;
+	margin-top: 17px;
+	color: #8a8a8a;
+}
+
+/*Блок2*/
+.block2{
+	margin-top: 88px;
+	width: 1920px;
+	height: 500px;
+	background-color: #2a2d32;
+	margin: auto;
+	}	
+	
